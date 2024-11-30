@@ -24,4 +24,5 @@ galleryContainer.innerHTML = generateGalleryMarkup(galleryData);
 new SimpleLightbox('.gallery a.gallery-link', {
   captionsData: 'alt',
   captionDelay: 250,
+  overlayOpacity: 0.8,
 });
