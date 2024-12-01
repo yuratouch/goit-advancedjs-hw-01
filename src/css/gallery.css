@@ -2,11 +2,9 @@ img {
   display: block;
   max-width: 100%;
 }
-
 ul {
   list-style-type: none;
 }
-
 ul.gallery {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -15,15 +13,12 @@ ul.gallery {
   margin: 0 auto;
   max-width: fit-content;
 }
-
 li.gallery-item {
   width: 360px;
 }
-
 .modal-image {
   position: relative;
 }
-
 .modal-image-caption {
   position: absolute;
   bottom: 5px;
@@ -32,15 +27,12 @@ li.gallery-item {
   background-color: #0000008c;
   padding: 5px 10px;
 }
-
 .modal-wrapper.basicLightbox--visible .basicLightbox__placeholder {
   transform: scale(0.95);
 }
-
 .sl-overlay {
   background-color: #2e2f42;
 }
-
 .sl-wrapper .sl-close,
 .sl-wrapper .sl-counter,
 .sl-wrapper .sl-navigation button {
