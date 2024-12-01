@@ -31,7 +31,7 @@ const submitHandler = event => {
   if (isFormValid) {
     console.log(formData);
     localStorage.removeItem('feedback-form-state');
-    formData = {};
+    formData = { email: '', message: '' };
     form.reset();
   } else {
     alert('Fill please all fields');
